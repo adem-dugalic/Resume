@@ -8,7 +8,7 @@ html,body{
   color:#666;
 }
 
-h1{
+h1,h2,h3{
   text-align:center;
   padding: 20px;
   margin: 0;
@@ -37,6 +37,92 @@ h1{
 }
 
 
+.grid{
+  display: grid;
+  grid-template-areas:
+  "top top top"
+  "right center left";
+  padding-top: 1em;
+  padding-bottom: 0; 
+  line-height: 2em;
+  margin: 0;
+}
+
+.Section-title{
+  grid-area: top;
+}
+
+.right-container{
+  grid-area: right;
+  text-align: center;
+}
+
+.left-container{
+  grid-area: left;
+  text-align: center;
+}
+
+.center-container{
+  grid-area: center;
+  text-align: center;
+}
+
+/*.grid-section{
+  display: grid;
+  grid-template-areas:
+  "first"
+  "second"
+  "third";
+  padding-top: 1em;
+  padding-bottom: 0; 
+  line-height: 2em;
+  margin: 0;
+}
+
+.second{
+  grid-area: second;
+}
+.third{
+  grid-area: third;
+}*/
+
+.PSchool-picture{
+  /*grid-area: first;*/
+  background-image:url('../img/MK.png');
+  height: 300px;
+  width: 300px;
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  display: inline-block;
+}
+
+.HSchool-picture{
+  background-image:url('../img/ekonomska.png');
+  height: 300px;
+  width: 300px;
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  display: inline-block;
+}
+
+.USchool-picture{
+  background-image:url('../img/IUS.png');
+  height: 300px;
+  width: 300px;
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  display: inline-block;
+}
+
 .gray-container{
   min-height:100%;
   width: 100%;
@@ -54,4 +140,10 @@ h1{
 .section{
   text-align:center;
   padding:50px 80px;
+}
+
+.black{
+  color: black;
+  text-transform:uppercase;
+  font-weight: bold;
 }
