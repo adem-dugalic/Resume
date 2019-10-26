@@ -1,0 +1,39 @@
+html,body{
+	 height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+h1{
+	text-align:center;
+}
+
+.head-container{
+  background-image:url('../img/meh.jpg');
+  min-height:100%;
+  width: 100%;
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+}
+
+.gray-container{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.white-container{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
