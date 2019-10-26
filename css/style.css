@@ -9,7 +9,20 @@ html,body{
 }
 
 h1{
-	text-align:center;
+  text-align:center;
+  padding: 20px;
+  margin: 0;
+}
+
+.title-text{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#fff;
+  font-size:4vw;
+  letter-spacing:8px;
+  text-transform:uppercase;
 }
 
 .head-container{
