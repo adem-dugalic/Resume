@@ -16,6 +16,10 @@ h1,h2,h3{
   letter-spacing:2px;
 }
 
+h3{
+  color: #e1a87a;
+}
+
 .title-text{
   position:absolute;
   top:30%;
@@ -161,6 +165,11 @@ h1,h2,h3{
   display: inline-block;
 }
 
+#devius{
+  text-decoration: none;
+  color: #e1a87a;
+}
+
 /*Work*/
 
 .raiffeisen{
@@ -180,20 +189,21 @@ h1,h2,h3{
 .gray-container{
   min-height:100%;
   width: 100%;
-  background-color:#282e34;
+  background-color:#1a1a1a;
   color:#ddd;
 }
 
 .white-container{
   min-height:100%;
   width: 100%;
-  background-color:#f4f4f4;
+  background-color:#fff;
   color:#666;
 }
 
 .section{
   text-align:center;
   padding:50px 80px;
+  margin: 0;
 }
 
 .black{
@@ -242,7 +252,7 @@ h1,h2,h3{
 
 }
 .link:hover{
-  color: #282e34;
+  color: #e1a87a;
 }
 
 /*Skills*/
@@ -280,4 +290,50 @@ h1,h2,h3{
 }
 .five{
   grid-area: five;
+}
+
+/*information*/
+
+#mail{
+  text-decoration: none;
+  color: #e1a87a;
+}
+
+.info-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "InfoPic about";
+  padding-top: 1em;
+  padding-bottom: 0; 
+  line-height: 2em;
+  margin: 0;
+}
+
+.info-container{
+  text-align: center;
+}
+
+.info{
+  grid-area: InfoPic;
+  background-image: url('../img/VR.jpeg');
+  height: 80%;
+  width: 100%;
+  margin-left: 5%;
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  display: inline-block;
+}
+.about{
+  grid-area: about;
+}
+
+/* footer*/
+
+footer{
+  background-color: #1a1a1a;
+  margin:0;
 }
