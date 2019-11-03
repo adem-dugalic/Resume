@@ -3,7 +3,7 @@ html,body{
   margin:0;
   font-size:16px;
   font-family:"Lato", sans-serif;
-  font-weight:400;
+  font-weight:300;
   /*line-height:1.8em;*/
   color:#666;
 }
@@ -12,15 +12,18 @@ h1,h2,h3{
   text-align:center;
   padding: 20px;
   margin: 0;
+  font-family: 'Baloo Bhaijaan', cursive;
+  letter-spacing:2px;
 }
 
 .title-text{
   position:absolute;
-  top:50%;
+  top:30%;
   width:100%;
   text-align:center;
-  color:#fff;
+  color: #fff;
   font-size:4vw;
+  font-family: 'Freckle Face', cursive;
   letter-spacing:8px;
   text-transform:uppercase;
 }
@@ -36,7 +39,7 @@ h1,h2,h3{
   background-attachment:scroll;
 }
 
-
+/*Education*/
 .grid{
   display: grid;
   grid-template-areas:
@@ -67,24 +70,13 @@ h1,h2,h3{
   text-align: center;
 }
 
-/*.grid-section{
-  display: grid;
-  grid-template-areas:
-  "first"
-  "second"
-  "third";
-  padding-top: 1em;
-  padding-bottom: 0; 
-  line-height: 2em;
-  margin: 0;
+.EducationDivs{
+  border-radius: 25px;
+  background-color: rgb(140, 135, 135, 0.1);
+  margin: 30px;
+  padding-top: 30px;
+  margin-bottom: 50px;
 }
-
-.second{
-  grid-area: second;
-}
-.third{
-  grid-area: third;
-}*/
 
 .PSchool-picture{
   /*grid-area: first;*/
@@ -123,6 +115,22 @@ h1,h2,h3{
   display: inline-block;
 }
 
+/*Work*/
+
+.raiffeisen{
+  background-image: url('../img/raiff.jpg');
+  height: 300px;
+  width: 700px;
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  display: inline-block;
+}
+
+/*General containers*/
+
 .gray-container{
   min-height:100%;
   width: 100%;
@@ -146,4 +154,81 @@ h1,h2,h3{
   color: black;
   text-transform:uppercase;
   font-weight: bold;
+}
+
+
+/*Nav bar*/
+
+
+.Nav-ul{
+  grid-area: navigation;
+  margin:0;
+  padding-top: 20px;
+  list-style-type: none;
+}
+
+.Nav-li{
+  float: left;
+  display: inline;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 1.3vw;
+  padding: 5px;
+  border-radius: 15px;
+  margin: 5px;
+
+}
+
+.Nav-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  ". navigation .";
+  padding-top: 1em;
+  padding-bottom: 0; 
+  line-height: 2em;
+  margin: 0;
+}
+
+.link{
+  text-decoration: none;
+  color: #DFE2E2;
+
+}
+
+/*Skills*/
+
+.Skill-ul{
+  list-style-type: none;
+}
+
+.Skill-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  ". . zero . ."
+  "one two three four five";
+  padding-top: 1em;
+  padding-bottom: 0; 
+  line-height: 2em;
+  margin: 0;
+}
+
+.zero{
+  grid-area: zero;
+}
+.one{
+  grid-area: one;
+}
+.two{
+  grid-area: two;
+}
+.three{
+  grid-area: three;
+}
+.four{
+  grid-area: four;
+}
+.five{
+  grid-area: five;
 }
