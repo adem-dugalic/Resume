@@ -78,6 +78,10 @@ h1,h2,h3{
   margin-bottom: 50px;
 }
 
+.EducationDivs:hover{
+  box-shadow: 10px 10px 25px grey;
+}
+
 .PSchool-picture{
   /*grid-area: first;*/
   background-image:url('../img/MK.png');
@@ -194,6 +198,9 @@ h1,h2,h3{
   text-decoration: none;
   color: #DFE2E2;
 
+}
+.link:hover{
+  color: #282e34;
 }
 
 /*Skills*/
