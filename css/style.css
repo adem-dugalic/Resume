@@ -1,11 +1,14 @@
 html,body{
-	height:100%;
-  margin:0;
-  font-size:16px;
-  font-family:"Lato", sans-serif;
-  font-weight:300;
-  /*line-height:1.8em;*/
-  color:#666;
+	 height:100%;
+   width:100%;
+   overflow-x: hidden;
+  	margin:0;
+  	padding:0;
+  	font-size:16px;
+  	font-family:"Lato", sans-serif;
+  	font-weight:300;
+  	/*line-height:1.8em;*/
+  	color:#666;
 }
 
 h1,h2,h3{
@@ -188,14 +191,14 @@ h3{
 
 .gray-container{
   min-height:100%;
-  width: 100%;
+  min-width: 100%;
   background-color:#1a1a1a;
   color:#ddd;
 }
 
 .white-container{
   min-height:100%;
-  width: 100%;
+  min-width: 100%;
   background-color:#fff;
   color:#666;
 }
