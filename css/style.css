@@ -240,7 +240,7 @@ h3{
 
 .Nav-grid{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 0.7fr 1fr 0.7fr;
   grid-template-areas:
   ". navigation .";
   padding-top: 1em;
