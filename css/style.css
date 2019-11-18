@@ -340,3 +340,24 @@ footer{
   background-color: #1a1a1a;
   margin:0;
 }
+
+
+/*form*/
+
+#confirm{
+  background-color: #1a1a1a;
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+  border-color: #1a1a1a;
+}
+
+
+label{
+  margin:0;
+  padding:0;
+}
+
+.title-letter{
+  color:white;
+}
