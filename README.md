@@ -1,7 +1,10 @@
 # Resume
-Web App class project
+The first working verion of personal resume.
 
-All html is in index.html,
-CSS will be further updated.
+## Online version
 
 https://skeri123.github.io/Resume/
+
+## Made by
+
+- Adem Dugalić
